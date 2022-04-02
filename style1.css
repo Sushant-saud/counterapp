@@ -1,0 +1,72 @@
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background: rgb(150, 75, 75);
+}
+.container{
+    max-width:900px;
+    margin:0 auto;
+    padding:0 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.container-div{
+    width:40%;
+    border:1px solid gray;
+    padding:1rem;
+    background-color:blue;
+    color:white;
+    text-align:center;
+    border-radius:5px;
+}
+.buttons
+{
+    width:100%;
+}
+.sub{
+    box-shadow: 1px 1px 1px gray,-1px -1px 1px gray;
+    background: rgb(201, 5, 5);
+    width:32%;
+    padding:10px;
+    height:80%;
+}
+.Reset{
+    
+    box-shadow: 1px 1px 1px gray,-1px -1px 2px gray;
+    background: rgb(245, 247, 245);
+    width:32%;
+    height:80%;
+    padding:10px;
+    outline:none
+}
+.Add{
+    
+    box-shadow: 1px 1px 2px rgb(145, 95, 95),-1px -1px 2px gray;
+    background: rgb(10, 221, 77);
+    width:32%;
+    height:80%;
+    padding:10px;
+}
+.sub:hover{
+    background: rgb(199, 93, 155);
+    color:white;
+}
+.Reset:hover{
+    background: rgb(164, 60, 147);
+    color:white;
+}
+.Add:hover{
+    background: rgb(164, 60, 129);
+    color:white;
+}
+span{
+    font-size:2rem ;
+    font-weight: bolder;
+}
